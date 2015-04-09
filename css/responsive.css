@@ -1,0 +1,397 @@
+﻿@media (max-width:1050px){
+    .slider .left_arrow {
+        margin-left: 0;
+    }
+    .slider .right_arrow {
+        margin-right: 0;
+    }
+    .demo .inside_block .about_player {
+        padding: 0 5%;
+    }
+    .blog .main .story .story_wrap {
+        width: 100%;
+    }
+    .contacts .main .left,
+    .contacts .main .right {
+        padding:0 0 0 15px;
+        width: 100%;
+    }
+    .contacts .main .left:after{
+        background: none;
+    }
+    .contacts .left form{
+        width: 360px;
+    }
+    #map_canvas,
+    .contacts .main .right .wrap{
+        float: left;
+        margin-top: 0;
+    }
+    .contacts .main .right .wrap{
+        width: 56%;
+    }
+    .contacts .main .right .wrap:after{
+        border: 0;
+    }
+    #map_canvas{
+        margin-left: 2%;
+        width: 42%;
+    }
+    .web .main .left {
+        width: 47%;
+    }
+    .web .prod_top .right {
+        padding-left: 10px;
+    }
+    .web .prod_top .right .title {
+         padding-left: 40px;
+    }
+    .title div{
+        padding-left: 0;
+    }
+
+    .web .prod_top .right a{
+        margin-left: 0;
+    }
+}
+@media (max-width:900px){
+    .slider .wrapper {
+        width: 100%;
+    }
+    .slider h1, .slider h2, .slider p {
+        text-align: center;
+    }
+    .slider .wrapper_bot {
+        float: none;
+        text-align: center;
+    }
+    .slider .wrapper_bot .btn{
+        float: none;
+    }
+    header {
+        padding: 30px 0 0;
+    }
+    .wrap_img {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .four_col ul li{
+        margin-bottom: 20px;
+        min-width: 170px;
+        text-align: center;
+        width: 32%;
+    }
+    .center{
+        flex-wrap: wrap;
+    }
+    .four_col ul li.fourth_col {
+        margin-right: 14px;
+    }
+    .col_2.second_col,
+    .title_with_list{
+        width: 98%;
+    }
+    .title_with_list{
+        padding-bottom: 10px;
+    }
+    .col_2 ul{
+        margin-top: 0;
+    }
+    .products .bottom_store ul li ul li {
+        margin: 5% 0.33% 0 0;
+        width: 49%;
+    }
+    .products .bottom_store ul li ul .left {
+        width: 33%;
+    }
+    .products .bottom_store ul li ul .right{
+        float: left;
+    }
+    .products .store {
+        padding: 4% 2% 17%;
+    }
+    .products .store .top_store{
+        padding: 0 6%;
+    }
+    .products .store .top_store .right_arrow {
+        right: -2%;
+    }
+    .products .store .top_store .left_arrow {
+        left:  -2%;
+    }
+    .demo .store.second {
+        padding: 0 0 30px;
+    }
+    .demo .inside_block .about_player .col_2.second_col ul {
+        margin: 0 0 30px;
+    }
+    .inner_blog .main .col_4 .btn{
+        margin: 0 0 10px 0;
+    }
+    .contacts .main .right .wrap,
+    #map_canvas{
+        margin:10px 0;
+        width: 100%;
+    }
+    .contacts.web .main .left, .contacts.web .main .right {
+        padding: 0 0 0 15px;
+        width: 100%;
+    }
+    .web .main .right {
+        padding: 25px 0 0 10px;
+    }
+}
+@media (max-width:800px){
+    .second_col .btn{
+        margin-bottom: 10px;
+    }
+    .blog .right_col{
+        width: 32%;
+    }
+    .blog .main{
+        width: 68%;
+    }
+    .pay{
+        height: 100%;
+        padding-left: 10px;
+        width: 370px;
+    }
+    .pay .left,
+    .pay .right{
+        width: 100%;
+    }
+    .pay .right {
+        background: url("../img/secure.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+        padding-bottom: 130px;
+    }
+    .pay .left .credit{
+        padding: 10px 120px 10px 15px;
+        width: 310px;
+    }
+    .pay .left:after,
+    .web .main .left:after{
+        background: none;
+    }
+    .web .main .left, .web .main .right {
+        padding: 0 0 15px 15px;
+        width: 100%;
+    }
+}
+@media (max-width:700px){
+    footer .col_2.first,
+    footer .col_2.second{
+        margin-left: 7%;
+        width: 93%;
+    }
+    footer .bottom {
+        margin-top: 20px;
+    }
+    footer ul.soc_list {
+        width: 100%;
+    }
+    footer .bottom .designed {
+        margin-top: 0;
+        text-align: center;
+        width: 100%;
+    }
+    footer .twit{
+        padding: 20px 0 10px 20%;
+    }
+    .container .prod_top .left,
+    .container .prod_top .right{
+        width: 100%;
+    }
+    .prod_top .left{
+        margin-bottom: 10px;
+    }
+    .prod_top .left .title,
+    .prod_top .left .title div,
+    .prod_top .right{
+        float: none;
+        text-align: center;
+    }
+    .prod_top .right{
+        float: left;
+    }
+    .prod_top .right form {
+        float: none;
+    }
+    .products .store_col {
+        text-align: center;
+        width: 100%;
+    }
+    .products .store_col .title,
+    .products .store_col .btn {
+        float: none;
+    }
+    .products .store_col .title,
+    .products .store_col .title div{
+        text-align: center;
+    }
+    .products .store_col {
+        margin: 0 0 20px 0;
+    }
+    .demo .store.second {
+        padding: 0 0 30px;
+    }
+    .demo .inside_block .about_player .title_list {
+        width: 100%;
+    }
+    .demo .inside_block .about_player .col_2.second_col {
+        width: 67%;
+    }
+    .blog .right_col{
+        width: 35%;
+    }
+    .blog .main{
+        width: 65%;
+    }
+    .blog .right_col .advertisement {
+        width: 175px;
+    }
+    .inner_prod .prod_list,
+    .inner_prod .prod_title {
+        margin: 0 0 10px 0;
+    }
+}
+@media (max-width:600px){
+    .col_3 {
+        width: 100%;
+    }
+    .question{
+        background-position: 0 0;
+        padding-left: 0;
+    }
+    .demo .inside_block ul li {
+        padding-right: 40px;
+    }
+    .demo .inside_block ul li ul li{
+        padding-right: 10px;
+    }
+    .blog .right_col{
+        padding: 20px 2% 35px;
+        width: 100%;
+    }
+    .blog .right_col .slide_bar{
+        float: left;
+        width: 50%;
+    }
+    .blog .right_col .slide_bar.second{
+        float: right;
+        width: 40%;
+    }
+    .blog .main{
+        width: 100%;
+    }
+    .blog .right_col .advertisement {
+        clear: both;
+        width: 195px;
+    }
+    .blog .main ul.page_nav li {
+        padding: 0 0 10px;
+    }
+    .main .list_of {
+        padding-left: 0;
+    }
+    .contacts .main .left,
+    .contacts .main .right{
+        padding:0;
+    }
+}
+@media (max-width:500px){
+    .second_col{
+        text-align: center;
+    }
+    .second_col ul{
+        text-align: left;
+    }
+    .second_col .btn{
+        margin-bottom: 10px;
+        float: none;
+    }
+    .products .bottom_store ul li ul li {
+        text-align: center;
+        width: 99%;
+    }
+    .products .store {
+        padding: 4% 2% 125%;
+    }
+    .products.demo .store {
+        padding: 4% 2% 10%;
+    }
+    .blog .right_col .slide_bar,
+    .blog .right_col .slide_bar.second{
+        float: none;
+        width: 100%;
+    }
+    .inner_prod .main .banner{
+        margin-bottom: 20px;
+    }
+    .pay,
+    .login,
+    .continue{
+        width: 290px;
+    }
+    .login{
+        padding-left: 10px;
+    }
+    .pay .counter{
+        margin: 15px 20px;
+    }
+    .pay .left .credit,
+    .login .log_in{
+        width: 240px;
+    }
+    .contacts .left form {
+        text-align: center;
+        width: 100%;
+    }
+    .container .contacts .left form input.btn{
+        float: none;
+    }
+    .contacts .main .left .fields{
+        width: 300px;
+    }
+    .web .main .right .title,
+    .web .main .right .box{
+        width: 210px;
+    }
+    .web .main .right .title{
+        padding-left: 10px;
+    }
+}
+@media (max-width:400px){
+    footer .twit {
+        padding: 20px 0 10px 23%;
+    }
+    .demo .inside_block ul li ul li{
+        margin-left: -12px;
+        padding-right: 1px;
+    }
+    .inner_blog .main {
+        padding: 20px 0 0 0;
+    }
+    .contacts .main .right .wrap{
+        padding: 5px 10px 30px;
+    }
+    .contacts .main .left .fields{
+        width: 240px;
+    }
+    .contacts .main .right .wrap div.email {
+        padding-left: 8px;
+    }
+    .web .main .left .btn {
+        float: none;
+    }
+    .web .main .left ul{
+        text-align: center;
+    }
+    .web .main .left ul.mini_btns li {
+        display: inline-block;
+        float: none;
+    }
+}
+
+
+
